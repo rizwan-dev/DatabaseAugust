@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Rizwan"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtName"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Kharadi"
+        android:layout_below="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtAddress"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="87876876876"
+        android:layout_below="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtPhone"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="8787687"
+        android:layout_below="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtSalary"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+</RelativeLayout>
